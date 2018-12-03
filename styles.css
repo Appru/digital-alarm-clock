@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+   background-image: url("./images/slimemk.gif"); /* The image used */
+  background-color: rgb(0, 0, 0); /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.main {
+  background: #ddd;
+  width: 400px;
+  height: 175px;
+  margin: 450px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.badge {
+  width: 120px;
+  background: #e66357;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold; 
+  position: absolute;
+  top: -20px;
+  left: 37.5%;
+  border-radius: 4px;
+}
+
+.clock {
+  background: #ebebeb;
+  text-align: center;
+  font-size:  55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  border-radius: 4px;
+
+
+}
